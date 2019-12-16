@@ -1,44 +1,73 @@
 package com.example.hamcrestspringboot;
 
-
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
+
 import org.junit.jupiter.api.Test;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class MyHamcrestTest {
 
     @Test
-    void tryStuff(){
-        String s = "Test123";
-        String n1 = null;
-        assertThat(s,
-                describedAs("String should end with 123",
-                allOf(
-                        endsWith("123"),
-                        startsWith("Test"))
+    void tryString() {
+        String spaceshipname = "Hawk 4000";
+        assertThat(spaceshipname,
+                describedAs("Lets test the name of the spaceship",
+                        allOf(
+                                anyOf(equalTo("Hawk 4000"), endsWith("5000")),
+                                anyOf(hasLength(9), containsString("Swan")),
+                                startsWith("Hawk"),
+                                equalToCompressingWhiteSpace("    Hawk 4000         \n")
+                        )
                 )
         );
-        assertThat(s, anyOf(endsWith("1234"), startsWith("Test")) );
-        assertThat(n1, anything());
+    }
 
-        assertThat(0.0/0, notANumber());
+    @Test
+    void tryNumbers() {
+        Double magicnumber = 42.0d;
+        assertThat(magicnumber,
+                describedAs("Test the magic number",
+                        is(closeTo(100.d, 60.d))
+                ));
 
-        Double magicnumber = 42.d;
-        assertThat(magicnumber, allOf(
-                closeTo(50.0d, 10.0d),
-                greaterThan(30.0d)
-        ));
+        assertThat(magicnumber,
+                describedAs("The number again",
+                        allOf(greaterThanOrEqualTo(40.0d),
+                                lessThanOrEqualTo(50.0d)
+                        )));
+    }
 
-        String whitespace = "  Test123                        \n";
-        assertThat(whitespace, equalToCompressingWhiteSpace("    Test123             "));
-
-        Map<String, Integer> map = Map.of("first",1,"second",2);
-        assertThat(map, hasEntry("first", 1));
-        assertThat(map, hasKey("second"));
-
+    @Test
+    void tryMaps(){
+        Map<String, Double> map = Map.of("first", 100.0d, "second", 200.0d, "third", 300.0d);
+        assertThat("We are testing the map",
+                map,
+                allOf(
+                hasEntry("first", 100.0d),
+                        hasKey("second"),
+                        hasValue(300.0d)
+                )
+                );
 
     }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

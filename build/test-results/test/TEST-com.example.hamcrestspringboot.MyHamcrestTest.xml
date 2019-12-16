@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.hamcrestspringboot.MyHamcrestTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-16T09:43:39" hostname="ds0950" time="0.024">
+<testsuite name="com.example.hamcrestspringboot.MyHamcrestTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-12-16T19:20:11" hostname="mmni-Lenovo-Z710" time="0.063">
   <properties/>
-  <testcase name="tryStuff()" classname="com.example.hamcrestspringboot.MyHamcrestTest" time="0.024"/>
+  <testcase name="tryNumbers()" classname="com.example.hamcrestspringboot.MyHamcrestTest" time="0.049"/>
+  <testcase name="tryMaps()" classname="com.example.hamcrestspringboot.MyHamcrestTest" time="0.004"/>
+  <testcase name="tryString()" classname="com.example.hamcrestspringboot.MyHamcrestTest" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
