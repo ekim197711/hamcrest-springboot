@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.hamcrestspringboot.MyHamcrestTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-16T09:43:39" hostname="ds0950" time="0.024">
+  <properties/>
+  <testcase name="tryStuff()" classname="com.example.hamcrestspringboot.MyHamcrestTest" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

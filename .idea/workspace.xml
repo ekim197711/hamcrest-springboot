@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a2a8a3d-bacd-4913-94ac-c56e58cb33c3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hamcrest-springboot" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1V3efUkVV4LIVs0N3RvAwTKLqLA" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
+  </component>
+  <component name="RunManager" selected="Gradle.MyHamcrestTest.tryStuff">
+    <configuration name="MyHamcrestTest.tryStuff" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.hamcrestspringboot.MyHamcrestTest.tryStuff&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HamcrestSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hamcrest-springboot.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hamcrestspringboot.HamcrestSpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MyHamcrestTest.tryStuff" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a2a8a3d-bacd-4913-94ac-c56e58cb33c3" name="Default Changelist" comment="" />
+      <created>1576486308078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576486308078</updated>
+      <workItem from="1576486313974" duration="6718000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1874" height="329" key="GridCell.Tab.0.bottom" timestamp="1576492847848">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1874" height="329" key="GridCell.Tab.0.bottom/0.25.1920.1055/0.25.1920.1175/1920.0.1920.1200@1920.0.1920.1200" timestamp="1576492847848" />
+    <state width="1874" height="329" key="GridCell.Tab.0.center" timestamp="1576492847847">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1874" height="329" key="GridCell.Tab.0.center/0.25.1920.1055/0.25.1920.1175/1920.0.1920.1200@1920.0.1920.1200" timestamp="1576492847847" />
+    <state width="1874" height="329" key="GridCell.Tab.0.left" timestamp="1576492847847">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1874" height="329" key="GridCell.Tab.0.left/0.25.1920.1055/0.25.1920.1175/1920.0.1920.1200@1920.0.1920.1200" timestamp="1576492847847" />
+    <state width="1874" height="329" key="GridCell.Tab.0.right" timestamp="1576492847847">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1874" height="329" key="GridCell.Tab.0.right/0.25.1920.1055/0.25.1920.1175/1920.0.1920.1200@1920.0.1920.1200" timestamp="1576492847847" />
+    <state x="2384" y="235" key="SettingsEditor" timestamp="1576486628854">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2384" y="235" key="SettingsEditor/0.25.1920.1055/0.25.1920.1175/1920.0.1920.1200@1920.0.1920.1200" timestamp="1576486628854" />
+    <state x="2455" y="222" width="842" height="751" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576505202631">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2455" y="222" width="842" height="751" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1920.1055/0.25.1920.1175/1920.0.1920.1200@1920.0.1920.1200" timestamp="1576505202631" />
+    <state x="2543" y="278" key="run.anything.popup" timestamp="1576486649041">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2543" y="278" key="run.anything.popup/0.25.1920.1055/0.25.1920.1175/1920.0.1920.1200@1920.0.1920.1200" timestamp="1576486649041" />
+    <state x="2543" y="249" width="672" height="676" key="search.everywhere.popup" timestamp="1576486662713">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2543" y="249" width="672" height="676" key="search.everywhere.popup/0.25.1920.1055/0.25.1920.1175/1920.0.1920.1200@1920.0.1920.1200" timestamp="1576486662713" />
+  </component>
+</project>
