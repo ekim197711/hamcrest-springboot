@@ -1,0 +1,28 @@
+syntax = "proto2";
+
+package mike;
+
+option java_package = "com.codeinvestigator.spacestation.generated";
+option java_outer_classname = "SpaceStationOuterClass";
+option java_multiple_files = true;
+
+message Captain{
+    required string name = 1;
+    enum RaceType {
+        FURRY = 0;
+        TALL_WOODEN = 1;
+        SMALL_ROUND = 2;
+    }
+    optional RaceType race = 2;
+}
+
+message SpaceShip {
+    required string name = 1;
+    optional int32 crew = 2;
+    optional string cargo = 3;
+}
+
+message SpaceStation {
+    required Captain captain = 1;
+    repeated SpaceShip spaceships = 2;
+}

@@ -22,6 +22,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+    compile 'com.google.protobuf:protobuf-java:3.11.0'
     // https://mvnrepository.com/artifact/org.hamcrest/hamcrest
     testCompile group: 'org.hamcrest', name: 'hamcrest', version: '2.2'
 

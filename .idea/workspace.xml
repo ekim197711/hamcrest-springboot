@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a2a8a3d-bacd-4913-94ac-c56e58cb33c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/protobuf-spacestation-compile.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/spacestation.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codeinvestigator/spacestation/generated/SpaceStationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/hamcrestspringboot/MyHamcrestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/hamcrestspringboot/MyHamcrestTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.example.hamcrestspringboot.MyHamcrestTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.example.hamcrestspringboot.MyHamcrestTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.example.hamcrestspringboot.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.example.hamcrestspringboot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.example.hamcrestspringboot.MyHamcrestTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.example.hamcrestspringboot.MyHamcrestTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/hamcrestspringboot/MyHamcrestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/hamcrestspringboot/MyHamcrestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/dest/com/example/tutorial/AddressBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/dest/com/example/tutorial/AddressBookOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/dest/com/example/tutorial/AddressBookProtos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/dest/com/example/tutorial/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/dest/com/example/tutorial/PersonOrBuilder.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +36,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -62,6 +57,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -80,12 +76,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/proto" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.codeinvestigator.spacestation.generated" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/proto" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -99,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MyHamcrestTest">
+  <component name="RunManager" selected="Gradle.SpaceStationTest.spacestation">
     <configuration name="MyHamcrestTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -160,12 +170,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MyHamcrestTest.tryStuff" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SpaceStationTest.spacestation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.example.hamcrestspringboot.MyHamcrestTest.tryStuff&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.codeinvestigator.spacestation.generated.SpaceStationTest.spacestation&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpaceStationTest.tryStuff" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.codeinvestigator.spacestation.generated.SpaceStationTest.tryStuff&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -189,10 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SpaceStationTest.spacestation" />
+        <item itemvalue="Gradle.SpaceStationTest.tryStuff" />
         <item itemvalue="Gradle.MyHamcrestTest" />
         <item itemvalue="Gradle.MyHamcrestTest.tryMaps" />
         <item itemvalue="Gradle.MyHamcrestTest.tryNumbers" />
-        <item itemvalue="Gradle.MyHamcrestTest.tryStuff" />
       </list>
     </recent_temporary>
   </component>
@@ -207,8 +238,17 @@
       <option name="presentableId" value="Default" />
       <updated>1576486308078</updated>
       <workItem from="1576486313974" duration="6718000" />
-      <workItem from="1576522562681" duration="1442000" />
+      <workItem from="1576522562681" duration="2150000" />
+      <workItem from="1576530513204" duration="2191000" />
     </task>
+    <task id="LOCAL-00001" summary="hamcrest stuff">
+      <created>1576524054481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576524054481</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,11 +259,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hamcrest stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="hamcrest stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1874" height="329" key="GridCell.Tab.0.bottom" timestamp="1576492847848">

@@ -1,0 +1,24 @@
+SpaceStation: captain {
+  name: "test123"
+  race: SMALL_ROUND
+}
+spaceships {
+  name: "Hawk"
+  crew: 10
+  cargo: "Robot parts"
+}
+spaceships {
+  name: "Seagul"
+  crew: 10
+  cargo: "Robot parts"
+}
+
+#SpaceStation Captain Name: test123
+name: "Hawk"
+	crew: 10
+cargo: "Robot parts"
+
+name: "Seagul"
+	crew: 10
+cargo: "Robot parts"
+
